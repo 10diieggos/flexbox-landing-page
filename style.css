@@ -1,22 +1,22 @@
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
 }
-ul{
+ul {
   list-style: none;
 }
 ul li a {
   text-decoration: none;
 }
-.flex-container{
+.flex-container {
   display: flex;
   max-width: 992px;
   margin: auto;
   width: 100%;
 }
 
-div img{
+div img {
   display: block;
   width: 100%;
 }
@@ -55,13 +55,13 @@ header .menu {
   min-height: 200px;
 }
 
-.texto-apresentacao h1{
+.texto-apresentacao h1 {
   color: #122A57;
   font-size: 48px;
   margin-bottom: 10px;
 }
 
-.texto-apresentacao a{
+.btn {
   text-align: center;
   background-color: #122A57;
   color: #fff;
@@ -81,14 +81,14 @@ header .menu {
   justify-content: space-between;
 }
 
-#quem-somos h2{
+#quem-somos h2 {
   display: flex;
   color: #122A57;
   font-size: 32px;
   margin-bottom: 20px;
 }
 
-#quem-somos h2::before{
+#quem-somos h2::before {
   content: "";
   height: 50px;
   background-color: #122A57;
@@ -103,4 +103,107 @@ header .menu {
 #quem-somos p {
   margin-bottom: 10px;
   width: 90%;
+}
+
+#quem-somos img {
+  min-width: 320px;
+}
+
+.container-externo {
+  background-color: #122A57;
+  width: 100%;
+}
+
+#servicos {
+  flex-direction: column;
+  padding: 50px 0 100px 0;
+}
+
+#servicos h2 {
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+
+.list-servicos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-servicos .item-servicos {
+  text-align: center;
+}
+
+.item-servicos a {
+  width: 220px;
+  background-color: #fff;
+  border-radius: 30px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #122A57;
+  font-weight: 700;
+}
+
+.item-servicos p {
+  color: #fff;
+  margin: 20px 0;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.item-servicos img {
+  width: 80%;
+  margin: auto;
+}
+
+#planos {
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.list-planos {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.item-planos {
+  flex: 1;
+  border: 5px solid #122A57;
+  margin:0 10px;
+  padding: 10px;
+}
+
+.item-planos h3 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 24px;
+}
+
+.item-planos h3::after {
+  content: "";
+  background-color: #122A57;
+  width: 100%;
+  height: 3px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.item-planos .btn {
+  margin: 20px auto;
+}
+
+.item-planos ul {
+  color: #122A57;
+  list-style: square;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
 }
