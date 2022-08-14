@@ -204,8 +204,8 @@ img {
 
 .item_planos {
   border: 6px solid #de6a2f;
-  margin: 0 40px;
-  min-width: 320px;
+  width: 100%;
+  margin: 10px;
 }
 
 .item_planos h3{
@@ -312,6 +312,7 @@ footer {
   }
 
   .item_planos {
+    width: 90%;
     margin-bottom: 20px;
   }
 
