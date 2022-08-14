@@ -2,13 +2,20 @@
 
 ## Uma simples página para praticar o conceito de flexbox
 
-O projeto se inicia por este branch.
+### Projeto de fim de curso
+
+Nome do curso: [Posicionando elementos com flexbox](https://web.dio.me/course/posicionando-elementos-com-flexbox-em-css/learning/46f1e8c7-ef6e-458e-ad4e-369fc65faba7/?back=/home)
+instrutora: Karen Santos - karen.asnt@gmail.com
+Instituição: [Digital Inovation One (DIO)](https://web.dio.me/)
+
+### Histórico do desenvolvimento
+
 
 Logo após as aulas conceituais sobre "flexbox" e antes das aulas do projeto de fim de curso, comecei a fazer o projeto sozinho, resultando no branch ***iniciando_sozinho***.
 
-A partir do commit ****** criei outro branch, apaguei meu código e fui refatorando, acompanhando a instrutora Karen Santos.
+A partir do commit 38d4fc criei o branch ***karen_santos_version***, apaguei meu código e fui refatorando, acompanhando a instrutora Karen Santos.
 
-Ao final criei outro branch onde continuo sozinho até o final.
+Ao final, criei o branch ***finalizando***, onde continuo sozinho a partir do branch ***iniciando_sozinho***.
 
 ### Resumo dos Branches
 
