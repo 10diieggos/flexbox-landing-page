@@ -2,11 +2,31 @@
 
 ## Uma simples página para praticar o conceito de flexbox
 
-A versão deste branch foi desenvolvida passo-a-passo acompanhando a aula da Instrutora Karen Santos, com diferenças insignificantes no código (Uma autentica cópia, digamos).
+### Projeto de fim de curso
 
-De início eu desenvolvi sozinho o posicionamento completo da página utilizando "flexbox", que é o tema do curso. A partir do commit 38d4fc, criei este branch, deletei todo o meu código e digitei o código da Karina, acompanhando as aulas.
+Nome do curso: [Posicionando elementos com flexbox](https://web.dio.me/course/posicionando-elementos-com-flexbox-em-css/learning/46f1e8c7-ef6e-458e-ad4e-369fc65faba7/?back=/home)
+instrutora: Karen Santos - karen.asnt@gmail.com
+Instituição: [Digital Inovation One (DIO)](https://web.dio.me/)
+
+### Histórico do desenvolvimento
 
 
+Logo após as aulas conceituais sobre "flexbox" e antes das aulas do projeto de fim de curso, comecei a fazer o projeto sozinho, resultando no branch ***iniciando_sozinho***.
 
+A partir do commit 38d4fc criei o branch ***karen_santos_version***, apaguei meu código e fui refatorando, acompanhando a instrutora Karen Santos.
+
+Ao final, criei o branch ***finalizando***, onde continuo sozinho a partir do branch ***iniciando_sozinho***.
+
+### Resumo dos Branches
+
+| Branch | desenvolvimento | propósito | originalidade |
+|--- |--- |--- |--- |
+| iniciando_sozinho | 1º | tentar posicionar os elementos sozinho | Meu código |
+| karen_santos_version | 2º | aprender com a instrutora | Código predominatemente da instrutora |
+| finalizando | 3º | praticar sozinho a partir do 1º branch | Meu código |
+| main | 4º | replica do 3º branch | Meu código |
+
+### Certificado
+
+Clique na imagem para ver o original
 [![Certificado](https://github.com/10diieggos/flexbox-landing-page/blob/karen_santos_version/certificado.png?raw=true)](https://www.dio.me/certificate/86A8ED8A)
-
