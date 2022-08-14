@@ -15,7 +15,7 @@ Logo após as aulas conceituais sobre "flexbox" e antes das aulas do projeto de 
 
 A partir do commit 38d4fc criei o branch ***karen_santos_version***, apaguei meu código e fui refatorando, acompanhando a instrutora Karen Santos.
 
-Ao final, criei o branch ***finalizando***, onde continuo sozinho a partir do branch ***iniciando_sozinho***.
+Ao final, criei o branch ***finalizando_sozinho***, onde continuo sozinho a partir do branch ***iniciando_sozinho***.
 
 ### Resumo dos Branches
 
@@ -23,7 +23,7 @@ Ao final, criei o branch ***finalizando***, onde continuo sozinho a partir do br
 |--- |--- |--- |--- |
 | iniciando_sozinho | 1º | tentar posicionar os elementos sozinho | Meu código |
 | karen_santos_version | 2º | aprender com a instrutora | Código predominatemente da instrutora |
-| finalizando | 3º | praticar sozinho a partir do 1º branch | Meu código |
+| finalizando_sozinho | 3º | praticar sozinho a partir do 1º branch | Meu código |
 | main | 4º | replica do 3º branch | Meu código |
 
 ### Certificado
