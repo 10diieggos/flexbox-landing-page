@@ -7,111 +7,119 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <div class="flex column">
-    <header>
-      <div class="flex">
-        <h1 class="text_right grow-1">FlexTurismos</h1>
-        <ul class="flex jc_end grow-2">
-            <li class="flex_item"><a href="#quem-somos">Quem Somos</a></li>
-            <li class="flex_item"><a href="#servicos">Serviços</a></li>
-            <li class="flex_item"><a href="#planos">Planos</a></li>
-        </ul>
-      </div>
+    <!-- cabecalho ****************************************-->
+    <header id="top_header">
+        <div class="container flex space_between" >
+            <h1>FlexTurismos</h1>
+            <ul class="flex" id="#menu">
+                <li><a href="#quem_somos">Quem Somos</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#planos">Planos</a></li>
+            </ul>
+        </div>
     </header>
-
-    <div class="flex">
-        <div class="grow-1">
+    <!-- cabecalho ########################################-->
+    
+    <!-- apresentacao ****************************************-->
+    <div class="container flex align_center" id="apresentacao">
+        <div class="flex column align_center space_between grow_1" id="texto_apresentacao">
             <h1>Flex <br>Turismos</h1>
             <p>O melhor serviço para você!</p>
             <a href="">Saiba Mais!</a>
         </div>
-
-        <div>
+        
+        <div class="grow_2">
             <div><img src="./images/0-main.png" alt="banner de apresentação"></div>
         </div>
     </div>
-
-    <div class="flex">
-        <div>
-            <img src="./images/1-quem-somos.png" alt="balcão de atendimento">
-        </div>
-
-        <div class="grow-1">
+    <!-- apresentacao ########################################-->
+    
+    <!-- quem_somos ****************************************-->
+    <div class="container flex row-reverse" id="quem_somos">
+        <div id="texto_quem_somos" class="grow_2">
             <h2>Quem somos</h2>
             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
             <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
         </div>
-    </div>
-
-    <div>
-        <div>
-            <h2>Serviços</h2>
-        </div>
-
-        <div class="flex jc_center">
-            <div class="grow-1">
-                <div><img src="./images/icon-2.png" alt="hospedagens"></div>
-                <p>Hospedagens</p>
-                <a href="#">Comprar Agora</a>
-            </div>
-
-            <div class="grow-1 order-1">
-               <div><img src="./images/icon-1.png" alt="pacote de viagens"></div>
-               <p>Pacotes de viagens</p>
-               <a href="#">Comprar Agora</a>
-            </div>
-
-            <div class="grow-1">
-                <div><img src="./images/icon-3.png" alt="roteiros personalizados"></div>
-                <p>Roteiros personalizados</p>
-                <a href="#">Comprar Agora</a>
-            </div>
-
+        <div class="grow_1">
+            <div><img src="./images/1-quem-somos.png" alt="balcão de atendimento"></div>
         </div>
     </div>
-
-    <div class="flex jc_center">
-
-        <div>
-            <h3>Plano 1</h3>
-            <ul>
-                <li>Suporte 24h</li>
-                <li>Serviços de quarto</li>
-                <li>Guia turístico</li>
-            </ul>
-            <a href="#">Saiba Mais!</a>
-        </div>
-
-        <div>
-            <h3>Plano 2</h3>
-            <ul>
-                <li>Suporte 24h</li>
-                <li>Serviços de quarto</li>
-                <li>Guia turístico</li>
-                <li>Roteiro de trilhas</li>
-                <li>Serviço personalizado</li>
-            </ul>
-            <a href="#">Saiba Mais!</a>
-        </div>
-
-        <div>
-            <h3>Plano 3</h3>
-            <ul>
-                <li>Suporte 24h</li>
-                <li>Serviços de quarto</li>
-                <li>Guia turístico</li>
-                <li>Roteiro de trilhas</li>
-                <li>Serviço personalizado</li>
-                <li>Área Vip</li>
-            </ul>
-            <a href="#">Saiba Mais!</a>
+    <!-- quem_somos ########################################-->
+    
+    <!-- servicos ****************************************-->
+    <div id="servicos">
+        <div class="container"><h2>Serviços</h2></div>
+        <div class="container" id="container_servicos">
+            <div class="flex" id="texto_servicos">
+                <div class="flex column align_center item_servico grow_1">
+                    <div><img src="./images/icon-2.png" alt="hospedagens"></div>
+                    <p>Hospedagens</p>
+                    <a href="#">Comprar Agora!</a>
+                </div>
+                <div class="flex column align_center item_servico grow_1">
+                    <div><img src="./images/icon-1.png" alt="pacote de viagens"></div>
+                    <p>Pacotes de viagens</p>
+                    <a href="#">Comprar Agora!</a>
+                </div>
+    
+                <div class="flex column align_center item_servico grow_1">
+                    <div><img src="./images/icon-3.png" alt="roteiros personalizados"></div>
+                    <p>Roteiros personalizados</p>
+                    <a href="#">Comprar Agora!</a>
+                </div>
+            </div>
         </div>
     </div>
+    <!-- servicos ########################################-->
+    
+    <!-- planos ****************************************-->
+    <div id="planos">
+        <h2>Planos</h2>
+        <div class="container flex space_around align_end" id="container_planos">
+            <div class="flex column align_center item_planos grow_1">
+                <h3>Plano 1</h3>
+                <ul>
+                    <li>Suporte 24h</li>
+                    <li>Serviços de quarto</li>
+                    <li>Guia turístico</li>
+                </ul>
+                <a href="#">Saiba Mais!</a>
+            </div>
+            
+            <div class="flex column align_center item_planos grow_1">
+                <h3>Plano 2</h3>
+                <ul>
+                    <li>Suporte 24h</li>
+                    <li>Serviços de quarto</li>
+                    <li>Guia turístico</li>
+                    <li>Roteiro de trilhas</li>
+                    <li>Serviço personalizado</li>
+                </ul>
+                <a href="#">Saiba Mais!</a>
+            </div>
+            
+            <div class="flex column align_center item_planos grow_1">
+                <h3>Plano 3</h3>
+                <ul>
+                    <li>Suporte 24h</li>
+                    <li>Serviços de quarto</li>
+                    <li>Guia turístico</li>
+                    <li>Roteiro de trilhas</li>
+                    <li>Serviço personalizado</li>
+                    <li>Área Vip</li>
+                </ul>
+                <a href="#">Saiba Mais!</a>
+            </div>
+        </div>
+    </div>
+    <!-- planos ########################################-->
 
-    <footer class="flex jc_s_around">
-        <p>&copy; 2021 CSS Flexbox</p>
-        <p>Desenvolvido por: DIEGO RICHARD LEMOS</p>
+    <footer>
+        <div class="flex space_around" id="footer">
+            <p>&copy; 2021 CSS Flexbox</p>
+            <p>Desenvolvido por: DIEGO RICHARD LEMOS</p>
+        </div>
     </footer>
-  </div>
 </body>
 </html>
