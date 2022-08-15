@@ -23,8 +23,8 @@ Ao final, criei o branch ***finalizando_sozinho***, onde continuo sozinho a part
 |--- |--- |--- |--- |--- |
 | iniciando_sozinho | 1º | tentar posicionar os elementos sozinho | Meu código | ver |
 | karen_santos_version | 2º | aprender com a instrutora | Código predominatemente da instrutora | [ver](https://translucent-mirror-shrimp.glitch.me)
-| finalizando_sozinho | 3º | praticar sozinho a partir do 1º branch | Meu código | ver |
-| main | 4º | replica do 3º branch | Meu código | ver |
+| finalizando_sozinho | 3º | praticar sozinho a partir do 1º branch | Meu código | [ver](https://tranquil-crawling-increase.glitch.me/) |
+| main | 4º | réplica do 3º branch | Meu código | [ver](https://tranquil-crawling-increase.glitch.me/) |
 
 ### Certificado
 
